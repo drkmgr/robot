@@ -1,7 +1,7 @@
 ## Info
 This repo contains two Robot Framework tests:
-* **signup.robot** - creates user, proceeds through "Welcome" procedure, select video and play preview
-* **login.robot test suit** - same as above, but insted creating user, login using information from data/variables.robot
+* **signup.robot** - creates user, proceeds through "Welcome" procedure, select video and play preview. If you want to check this suite, I suggest to change user's information in `data/variables.robot`
+* **login.robot** - same as above, but insted creating user, login using information from `data/variables.robot`
 
 ## How-To
 ### Requirements
@@ -10,18 +10,17 @@ This repo contains two Robot Framework tests:
 * robotframework-seleniumlibrary 3.3.1
 
 ### Environment setup (linux/ubuntu)
-Required:
+**Required:**
 ```
 pip install --upgrade robotframework
 pip install --upgrade robotframework-seleniumlibrary
 ```
 
-Optional:
-
+**Optional:**
 ```
 pip install webdrivermanager
 ```
-*If you have already Chrome browser driver, then you don't need it. If you don't have and don't want to install it manualy, install this manager and run bellow command.*
+*If you have already Chrome browser driver, then you don't need it. If you don't have and don't want to install it manualy, install this manager and run bellow command in command line.*
 
 ```
 webdrivermanager chrome --linkpath /usr/local/bin
