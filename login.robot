@@ -22,6 +22,7 @@ Submit information
 	Submit
 
 Select video from library
+	Run Keyword And Ignore Error	IgnoreWelcome
 	SelectVideo
 
 Play selected video

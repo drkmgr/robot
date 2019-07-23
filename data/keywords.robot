@@ -34,6 +34,15 @@ TypePassword
 Submit
 	Click Element	${submit_button}
 
+IgnoreWelcome
+	Wait Until Element Is Visible	${ignore_cat}
+	Click Element	${ignore_cat}
+	Wait Until Element Is Visible	${next_button}
+	Click Element	${next_button}
+	Wait Until Element Is Visible	${iframe2}
+	Select Frame	${iframe2}
+	Click Element	${close_frame}
+
 SelectVideo
 	Wait Until Element Is Visible	${scroll_to_vid}
 	Scroll Element Into View	${scroll_to_vid}
@@ -42,4 +51,4 @@ SelectVideo
 
 PlayVideo
 	Click Button	${play_video}
-	Sleep	10
+	Sleep	7
