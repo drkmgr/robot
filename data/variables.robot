@@ -14,9 +14,9 @@ ${email_field}		id:sui-email
 ${passw_field}		id:sui-password
 ${submit_button}	class:submit
 
-${fname}	TestUser
-${email}	lesiutbg@op.pl
-${passw}	TestUser123456
+${fname}	testuser2
+${email}	testuser2@op.pl
+${passw}	TestUser222
 
 
 ${scroll_to_vid}	class:video-content-section.section-library.videos-search
