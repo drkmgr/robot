@@ -23,3 +23,10 @@ Type user's password
 
 Submit information
 	Submit
+
+Select video from library
+	Run Keyword And Ignore Error	IgnoreWelcome
+	SelectVideo
+
+Play selected video
+	PlayVideo
