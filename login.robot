@@ -7,6 +7,9 @@ Suite Teardown	Close Browser
 
 
 *Test Cases
+Accept cookies policy
+	AcceptPolicy
+
 Press Login button
 	${status}	${var}=	Run Keyword And Ignore Error	LoginLink
 	Run Keyword If	'${status}' == 'FAIL'	LoginHamburgerMenu

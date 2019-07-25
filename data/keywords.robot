@@ -2,6 +2,10 @@
 OpenAndProceed
 	Open Browser	${uri}	${browser}
 
+AcceptPolicy
+	Wait Until Element Is Visible	${cookies_ok}
+	Click Element	${cookies_ok}
+
 SignUpRoundButton
 	Wait Until Element Is Visible	${sign_up_button_round}
 	Click Element	${sign_up_button_round}

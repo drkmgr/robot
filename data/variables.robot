@@ -2,6 +2,7 @@
 ${uri}	https://promo.com
 ${browser}  Chrome
 
+${cookies_ok}	css:div#cookies-policy-popup div.got-it-btn
 ${sign_up_button_round}  	css:div.signup.signup--round
 ${login_hyperlink}		css:a.signin.login
 ${hamburger_menu}		css:div.sidebar label.sidebar__button
