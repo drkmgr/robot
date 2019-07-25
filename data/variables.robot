@@ -3,10 +3,10 @@ ${uri}	https://promo.com
 ${browser}  Chrome
 
 ${sign_up_button_round}  	css:div.signup.signup--round
-${login_hyperlink}		class:signin.login
-${hamburger_menu}		class:sidebar.button
-${sign_up_hamburger_menu}	class:sidebar.signup
-${login_hamburger_menu}		class:sidebar.signin
+${login_hyperlink}		css:a.signin.login
+${hamburger_menu}		css:div.sidebar label.sidebar__button
+${sign_up_hamburger_menu}	css:div.sidebar span.sidebar__link.signup
+${login_hamburger_menu}		css:div.sidebar span.sidebar__link.signin
 ${iframe}			css:div.login-dialog iframe
 
 ${fname_field}  	id:sui-full-name
