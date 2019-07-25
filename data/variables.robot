@@ -4,9 +4,9 @@ ${browser}  Chrome
 
 ${sign_up_button_round}  	css:div.signup.signup--round
 ${login_hyperlink}		class:signin.login
-${hamburger_menu}		class:sidebar__button
-${sign_up_hamburger_menu}	class:sidebar__link.signup
-${login_hamburger_menu}		class:sidebar__link.signin
+${hamburger_menu}		class:sidebar.button
+${sign_up_hamburger_menu}	class:sidebar.signup
+${login_hamburger_menu}		class:sidebar.signin
 ${iframe}			css:div.login-dialog iframe
 
 ${fname_field}  	id:sui-full-name
