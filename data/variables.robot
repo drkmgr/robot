@@ -16,8 +16,8 @@ ${email_field}		id:sui-email
 ${passw_field}		id:sui-password
 ${submit_button}	class:submit
 
-${fname}	awesomeuser
-${email}	awesomeemail@awesome.yeah
+${fname}	awesomeuser21
+${email}	awesomeemail21@awesome.yeah
 ${passw}	AweomePassword123
 
 ${ignore_cat}     class:none

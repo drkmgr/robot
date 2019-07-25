@@ -7,6 +7,10 @@ Suite Teardown	Close Browser
 
 
 *Test Cases
+Accept cookies policy
+	${status}	${var}=	Run Keyword And Ignore Error	AcceptPolicy
+	Run Keyword If	'${status}' == 'FAIL'	AcceptPolicyMobile
+
 Press "Sign Up" button
 	${status}	${var}=	Run Keyword And Ignore Error	SignUpRoundButton
 	Run Keyword If	'${status}' == 'FAIL'	SignUpHamburgerMenu
