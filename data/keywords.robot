@@ -1,7 +1,6 @@
 *Keywords
 OpenAndProceed
 	Open Browser	${uri}	${browser}
-	Maximize Browser Window
 
 SignUpRoundButton
 	Wait Until Element Is Visible	${sign_up_button_round}
