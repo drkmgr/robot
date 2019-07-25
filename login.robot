@@ -8,7 +8,8 @@ Suite Teardown	Close Browser
 
 *Test Cases
 Accept cookies policy
-	AcceptPolicy
+	${status}	${var}=	Run Keyword And Ignore Error	AcceptPolicy
+	Run Keyword If	'${status}' == 'FAIL'	AcceptPolicyMobile
 
 Press Login button
 	${status}	${var}=	Run Keyword And Ignore Error	LoginLink
